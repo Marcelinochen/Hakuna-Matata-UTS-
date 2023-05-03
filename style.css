@@ -1,14 +1,39 @@
 body{
-    background: white;
+    background: aliceblue;
 }
 a:hover{
     color: lawngreen;
 }
+header{
+    display: flex;
+    background-color: crimson;
+    color: white;
+}
+h1{
+    padding-left: 20px;
+}
 h3{
     margin: 10px;
     padding: 5px;
-    background: wheat;
+    background: darkgrey;
     text-align: center;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li a {
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    margin-top: 5px;
+}
+.kanan{
+    margin-right: 55%
+}
+.kiri{
+    margin-left: 5%;
 }
 table{
     margin: 40px auto;
