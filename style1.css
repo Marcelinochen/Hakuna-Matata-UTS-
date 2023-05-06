@@ -18,6 +18,10 @@
     text-transform: capitalize;
 }
 
+a{
+    margin: 10px;
+}
+
 *::selection{
     background-color: var(--main-color);
     color: var(--white);
